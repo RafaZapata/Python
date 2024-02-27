@@ -1,0 +1,149 @@
+{
+    "count": 3,
+    "value": [
+        {
+            "id": 2,
+            "rev": 5,
+            "fields": {
+                "System.AreaPath": "proyecto_prueba",
+                "System.TeamProject": "proyecto_prueba",
+                "System.IterationPath": "proyecto_prueba\\Sprint 1",
+                "System.WorkItemType": "Task",
+                "System.State": "Doing",
+                "System.Reason": "Started",
+                "System.AssignedTo": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.CreatedDate": "2024-01-18T17:46:58.83Z",
+                "System.CreatedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.ChangedDate": "2024-01-18T20:42:49.14Z",
+                "System.ChangedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.CommentCount": 0,
+                "System.Title": "Task 1",
+                "Microsoft.VSTS.Scheduling.StoryPoints": 8.0,
+                "Microsoft.VSTS.Common.StateChangeDate": "2024-01-18T17:47:16.987Z",
+                "Microsoft.VSTS.Common.ActivatedDate": "2024-01-18T17:47:16.987Z",
+                "Microsoft.VSTS.Common.ActivatedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "Microsoft.VSTS.Common.Priority": 2,
+                "System.Description": "<div>descripcion de la task 1<br> </div>"
+            },
+            "url": "https://dev.azure.com/edgarbd/965036e6-3e2e-4220-ae37-44be3880414e/_apis/wit/workItems/2"
+        },
+        {
+            "id": 3,
+            "rev": 3,
+            "fields": {
+                "System.AreaPath": "project 2",
+                "System.TeamProject": "project 2",
+                "System.IterationPath": "project 2\\Iteration 1",
+                "System.WorkItemType": "User Story",
+                "System.State": "Active",
+                "System.Reason": "Implementation started",
+                "System.AssignedTo": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.CreatedDate": "2024-01-18T23:33:50.887Z",
+                "System.CreatedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.ChangedDate": "2024-01-18T23:48:53.003Z",
+                "System.ChangedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.CommentCount": 0,
+                "System.Title": "HU Historia de usuario prueba",
+                "System.BoardColumn": "Active",
+                "System.BoardColumnDone": false,
+                "Microsoft.VSTS.Scheduling.StoryPoints": 8.0,
+                "Microsoft.VSTS.Common.StateChangeDate": "2024-01-18T23:48:53.003Z",
+                "Microsoft.VSTS.Common.ActivatedDate": "2024-01-18T23:48:53.003Z",
+                "Microsoft.VSTS.Common.ActivatedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "Microsoft.VSTS.Common.Priority": 2,
+                "Microsoft.VSTS.Common.ValueArea": "Business",
+                "System.Description": "<div>Descripción de la historia de usuario<br> </div>",
+                "Microsoft.VSTS.Common.AcceptanceCriteria": "<div>Descripción de los criterios de aceptación<br> </div>"
+            },
+            "url": "https://dev.azure.com/edgarbd/2b468630-cf6d-4964-ab3b-a9e95f58e493/_apis/wit/workItems/3"
+        },
+        {
+            "id": 4,
+            "rev": 2,
+            "fields": {
+                "System.AreaPath": "project 2",
+                "System.TeamProject": "project 2",
+                "System.IterationPath": "project 2\\Iteration 1",
+                "System.WorkItemType": "Task",
+                "System.State": "Active",
+                "System.Reason": "Work started",
+                "System.AssignedTo": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.CreatedDate": "2024-01-18T23:35:34.64Z",
+                "System.CreatedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.ChangedDate": "2024-01-18T23:49:31.933Z",
+                "System.ChangedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "System.CommentCount": 0,
+                "System.Title": "Tarea 1",
+                "Microsoft.VSTS.Scheduling.RemainingWork": 5.0,
+                "Microsoft.VSTS.Scheduling.OriginalEstimate": 10.0,
+                "Microsoft.VSTS.Scheduling.CompletedWork": 5.0,
+                "Microsoft.VSTS.Common.StateChangeDate": "2024-01-18T23:49:31.933Z",
+                "Microsoft.VSTS.Common.ActivatedDate": "2024-01-18T23:49:31.933Z",
+                "Microsoft.VSTS.Common.ActivatedBy": {
+                    "displayName": "EDGAR RAUL BAÑUELOS DIAZ",
+                    "id": "eec70aae-4384-6ee3-8b30-5b26da6d31fb",
+                    "uniqueName": "edgar.bd@aguascalientes.tecnm.mx",
+                    "descriptor": "aad.ZWVjNzBhYWUtNDM4NC03ZWUzLThiMzAtNWIyNmRhNmQzMWZi"
+                },
+                "Microsoft.VSTS.Common.Priority": 2,
+                "System.Description": "<div>Descripción de la tarea 1<br> </div>"
+            },
+            "url": "https://dev.azure.com/edgarbd/2b468630-cf6d-4964-ab3b-a9e95f58e493/_apis/wit/workItems/4"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+# requirements.txt
+
+# Frameworks y bibliotecas estándar de Python
+requests
+pandas
+python-dotenv
+jsonschema
+
+# Cliente de Elasticsearch
+elasticsearch>=7,<8
+
+# Herramientas de testing
+unittest2 # Si es necesario, para versiones mejoradas de unittest
+mock # Para simular respuestas en las pruebas unitarias
+requests_mock
+
+# Otras dependencias pueden ser añadidas aquí según sea necesario
