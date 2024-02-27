@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-              python3 -m pip install requests
+              pip3 install requests
               pip install pandas
 
       - name: Install tox and any other packages
