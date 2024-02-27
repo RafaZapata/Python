@@ -1,4 +1,3 @@
-import requests
 import unittest
 import json
 from unittest.mock import MagicMock, patch
