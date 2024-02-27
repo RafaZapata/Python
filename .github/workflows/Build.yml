@@ -24,8 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-              pip3 install requests
-              pip install pandas
+              conda activate demucs
+              pip install requests
 
       - name: Install tox and any other packages
         run: pip install tox
