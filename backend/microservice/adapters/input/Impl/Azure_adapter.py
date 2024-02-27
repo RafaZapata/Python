@@ -1,5 +1,5 @@
 import requests
-from adapters.input.IAzure_adapter import IAzureAdapter
+from microservice.adapters.input.IAzure_adapter import IAzureAdapter
 from interceptors.Impl.Sanitizer import Sanitizer
 from configurations.Config import Config
 
