@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: /home/runner/work/23_Axity_python_flask_archetype/23_Axity_python_flask_archetype/backend
+        working-directory: /home/runner/work/Python/Python/backend
     steps:
       - uses: actions/checkout@v2
         with:
