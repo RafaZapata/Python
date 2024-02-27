@@ -1,3 +1,6 @@
+# requirements.txt
+
+# Frameworks y bibliotecas estándar de Python
 Flask
 Flask-DotEnv
 Flask-SQLAlchemy
@@ -5,3 +8,17 @@ flask-cors
 SQLAlchemy
 python-dotenv
 psycopg2-binary
+requests
+pandas
+python-dotenv
+jsonschema
+
+# Cliente de Elasticsearch
+elasticsearch>=7,<8
+
+# Herramientas de testing
+unittest2 # Si es necesario, para versiones mejoradas de unittest
+mock # Para simular respuestas en las pruebas unitarias
+requests_mock
+
+# Otras dependencias pueden ser añadidas aquí según sea necesario
