@@ -1,6 +1,6 @@
 import unittest
 import json
-from processors.Impl.Data_processor import DataProcessor
+from microservice.processors.Impl.Data_processor import DataProcessor
 
 class TestDataProcessor(unittest.TestCase):
 

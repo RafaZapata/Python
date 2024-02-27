@@ -1,7 +1,7 @@
 import logging
 import unittest
 import json
-from interceptors.Impl.Sanitizer import Sanitizer
+from microservice.interceptors.Impl.Sanitizer import Sanitizer
 
 class TestSanitizer(unittest.TestCase):
 

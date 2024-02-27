@@ -1,7 +1,7 @@
 import unittest
 import json
 from unittest.mock import MagicMock, patch
-from adapters.input.Impl.Azure_adapter import AzureAdapter
+from microservice.adapters.input.Impl.Azure_adapter import AzureAdapter
 import os
 import sys
 
