@@ -2,7 +2,7 @@ name: Build Workflow Betelgeuse
 on:
   push:
     branches:
-      - master
+      - main
       - feature/AR-12-A-BETELGEUSE-ARQUETIPO-PYTHON-FLASK
 
 jobs:
