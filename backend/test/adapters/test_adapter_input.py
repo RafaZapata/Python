@@ -14,6 +14,7 @@ class TestAzureAdapter(unittest.TestCase):
     def setUp(self):
         # Configura cualquier configuración necesaria para las pruebas
         self.config_mock = MagicMock()
+        self.sanitizer_mock = MagicMock()
         self.config_mock.API_URL = "https://example.com"
         self.config_mock.API_AZURE_WORKITEMS = "/workitems"
         self.config_mock.API_AZURE_PROJECTS = "/projects"
