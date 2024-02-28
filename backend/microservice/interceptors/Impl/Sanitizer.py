@@ -1,5 +1,5 @@
-from microservice.interceptors.ISanitizer import ISanitizer
-from microservice.models.Azure_input_workitem_data_model import AzureInputWorkitemDM
+from interceptors.ISanitizer import ISanitizer
+from models.Azure_input_workitem_data_model import AzureInputWorkitemDM
 import json
 import logging
 

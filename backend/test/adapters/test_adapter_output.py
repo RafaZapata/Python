@@ -32,7 +32,7 @@ class TestElasticsearchCliente(unittest.TestCase):
         data = json.dumps(input_azure)
         
         #Act
-        result = elastic_client.data_index_bulk(elastic_client, data)
+        result = elastic_client.data_index_bulk(data)
 
         #Assert
         self.assertEqual(mock_elasticsearch_instance.index.call_count, 3)

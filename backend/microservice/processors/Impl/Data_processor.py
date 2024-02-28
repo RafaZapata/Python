@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-from microservice.processors.IData_processor import IDataProcessor
+from processors.IData_processor import IDataProcessor
 
 class DataProcessor(IDataProcessor):
     def process_data(self, data_input):

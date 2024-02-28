@@ -1,0 +1,152 @@
+{
+  "workitems": [
+    {
+      "WorkItemId": "14761-2024-02-08T13:52:52.277-06:00",
+      "Title": "MVP1 - US00 Creaci\u00c3\u00b3n de depuraci\u00c3\u00b3n de tabla temporal apps.xxfc_ap_cargacsv_all",
+      "WorkItemType": "User Story",
+      "ChangedDate": "2024-02-08T13:52:52.277-06:00",
+      "CreatedDate": "2024-01-24T15:48:13.657-06:00",
+      "State": "To Do",
+      "ProjectSK": "98477ade-3562-41cf-9748-445e77df3715",
+      "WorkItemRevisionSK": 77078,
+      "AreaSK": "e6ba1d21-5b48-4089-8859-8cf75776e1e6",
+      "IterationSK": "a449a336-1833-4405-864c-39391ec42231",
+      "AssignedToUserSK": "e98d55f2-31c1-4cd6-b2f7-36bc2dfc1351",
+      "ChangedByUserSK": "5efaf71f-94a9-427e-a01c-752f4ee674b7",
+      "CreatedByUserSK": "5efaf71f-94a9-427e-a01c-752f4ee674b7",
+      "ActivatedByUserSK": null,
+      "ClosedByUserSK": null,
+      "ResolvedByUserSK": null,
+      "ActivatedDateSK": null,
+      "ChangedDateSK": 20240208,
+      "ClosedDateSK": null,
+      "CreatedDateSK": 20240124,
+      "ResolvedDateSK": null,
+      "StateChangeDateSK": 20240124,
+      "StoryPoints": 8,
+      "Revision": 2,
+      "Reason": "Moved to state To Do",
+      "Iteration": [
+        {
+          "IterationSK": "a449a336-1833-4405-864c-39391ec42231",
+          "IterationName": "I23053-TI01 Folio de pago 2.0",
+          "StartDate": null,
+          "EndDate": null
+        }
+      ],
+      "Project": [
+        {
+          "ProjectSK": "98477ade-3562-41cf-9748-445e77df3715",
+          "ProjectId": "98477ade-3562-41cf-9748-445e77df3715",
+          "ProjectName": "I23053-TI01 Folio de pago 2.0",
+          "ProjectVisibility": "Private"
+        }
+      ],
+      "AssignedTo": [
+        {
+          "UserSK": "e98d55f2-31c1-4cd6-b2f7-36bc2dfc1351",
+          "UserId": "74ee6864-fb11-63d8-96d6-5cffb37c5bae",
+          "UserName": "benjamin.salamanca",
+          "UserEmail": "benjamin.salamanca@grupotimex.onmicrosoft.com"
+        }
+      ]
+    },
+    {
+      "WorkItemId": "17413-2024-02-08T15:33:12.597-06:00",
+      "Title": "EBS- Agregar campo nombre archivo ",
+      "WorkItemType": "User Story",
+      "ChangedDate": "2024-02-08T15:33:12.597-06:00",
+      "CreatedDate": "2024-02-08T14:59:16.077-06:00",
+      "State": "To Do",
+      "ProjectSK": "98477ade-3562-41cf-9748-445e77df3715",
+      "WorkItemRevisionSK": 77141,
+      "AreaSK": "e6ba1d21-5b48-4089-8859-8cf75776e1e6",
+      "IterationSK": "2e9b906d-a1c6-4cbf-a720-61b0df4703b7",
+      "AssignedToUserSK": null,
+      "ChangedByUserSK": "435fd1ac-e8b1-46d2-b6e2-d8a160f27f50",
+      "CreatedByUserSK": "5efaf71f-94a9-427e-a01c-752f4ee674b7",
+      "ActivatedByUserSK": null,
+      "ClosedByUserSK": null,
+      "ResolvedByUserSK": null,
+      "ActivatedDateSK": null,
+      "ChangedDateSK": 20240208,
+      "ClosedDateSK": null,
+      "CreatedDateSK": 20240208,
+      "ResolvedDateSK": null,
+      "StateChangeDateSK": 20240208,
+      "StoryPoints": 8,
+      "Revision": 4,
+      "Reason": "Moved to state To Do",
+      "Iteration": [
+        {
+          "IterationSK": "2e9b906d-a1c6-4cbf-a720-61b0df4703b7",
+          "IterationName": "Sprint5 SP5",
+          "StartDate": "2024-02-08T00:00:00-06:00",
+          "EndDate": "2024-02-21T23:59:59.999-06:00"
+        }
+      ],
+      "Project": [
+        {
+          "ProjectSK": "98477ade-3562-41cf-9748-445e77df3715",
+          "ProjectId": "98477ade-3562-41cf-9748-445e77df3715",
+          "ProjectName": "I23053-TI01 Folio de pago 2.0",
+          "ProjectVisibility": "Private"
+        }
+      ],
+      "AssignedTo": [
+        { "UserSK": "", "UserId": "", "UserName": "", "UserEmail": "" }
+      ]
+    },
+    {
+      "WorkItemId": "17417-2024-02-08T16:15:04.237-06:00",
+      "Title": "Desarrollo funci\u00c3\u00b3n bidireccionalidad Escritura P1",
+      "WorkItemType": "User Story",
+      "ChangedDate": "2024-02-08T16:15:04.237-06:00",
+      "CreatedDate": "2024-02-08T16:01:09.187-06:00",
+      "State": "To Do",
+      "ProjectSK": "d2f4bea0-e4da-4c90-a3c2-d604b672ef0b",
+      "WorkItemRevisionSK": 77179,
+      "AreaSK": "9797866b-3fd0-4b1b-9dd4-6cd2f6fe7ea9",
+      "IterationSK": "33beb64f-af75-4d4c-bc53-e5f402907666",
+      "AssignedToUserSK": "5f086f53-7ab2-4718-bd22-a4dd42a90617",
+      "ChangedByUserSK": "df9fbeae-6289-4b9c-b7d3-f153d03f0151",
+      "CreatedByUserSK": "0db9d48f-c2ee-4091-8938-ae9cf3a8e990",
+      "ActivatedByUserSK": null,
+      "ClosedByUserSK": null,
+      "ResolvedByUserSK": null,
+      "ActivatedDateSK": null,
+      "ChangedDateSK": 20240208,
+      "ClosedDateSK": null,
+      "CreatedDateSK": 20240208,
+      "ResolvedDateSK": null,
+      "StateChangeDateSK": 20240208,
+      "StoryPoints": 8,
+      "Revision": 6,
+      "Reason": "Moved to state To Do",
+      "Iteration": [
+        {
+          "IterationSK": "33beb64f-af75-4d4c-bc53-e5f402907666",
+          "IterationName": "Iteration 12",
+          "StartDate": "2024-02-08T00:00:00-06:00",
+          "EndDate": "2024-02-21T23:59:59.999-06:00"
+        }
+      ],
+      "Project": [
+        {
+          "ProjectSK": "d2f4bea0-e4da-4c90-a3c2-d604b672ef0b",
+          "ProjectId": "d2f4bea0-e4da-4c90-a3c2-d604b672ef0b",
+          "ProjectName": "I21126-TI06 NEXXO Portal Tienda Inteligente F2",
+          "ProjectVisibility": "Private"
+        }
+      ],
+      "AssignedTo": [
+        {
+          "UserSK": "5f086f53-7ab2-4718-bd22-a4dd42a90617",
+          "UserId": "a43dcd39-658c-646c-aa2d-42ba644ac8ab",
+          "UserName": "mayte.morales@nimblu.io",
+          "UserEmail": "mayte.morales@nimblu.io"
+        }
+      ]
+    }
+  ]
+}

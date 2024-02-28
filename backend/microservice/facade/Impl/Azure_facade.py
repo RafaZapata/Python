@@ -6,11 +6,11 @@ import logging
 
 class AzureFacade(IAzureFacade):
     
-    def process_orchestrator(self, inputAdapter = AzureAdapter(), dataProcess = DataProcessor(), elasticsearchClient = ElasticsearchCliente()):
+    def process_orchestrator(self, inputAdapter = AzureAdapter(), data_processing = DataProcessor(), elasticsearchClient = ElasticsearchCliente()):
         
         data_input = inputAdapter.get_workitems()
         
-        data_process = dataProcess.process_data(data_input)
+        data_process = data_processing.process_data(data_input)
         
         result = elasticsearchClient.data_index_bulk(data_process)
         logging.info("indexed data:")

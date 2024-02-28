@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch
-from microservice.configurations.Config import Config
+from configurations.Config import Config
 from elasticsearch.exceptions import ElasticsearchException
-from microservice.adapters.output.IElastic_adapter import IElasticAdapter
+from adapters.output.IElastic_adapter import IElasticAdapter
 from elasticsearch import helpers
 import json
 
