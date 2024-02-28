@@ -13,7 +13,7 @@ class TestSanitizer(unittest.TestCase):
     def test_data_sanitizer_workitems_valid_input(self):
         '''Caso de prueba para data_sanitizer_workitems con entrada válida'''
         #Arrange
-        with open('..\\backend\\tests\\resources\\data_input.json', 'r') as file:
+        with open('..\\resources\\data_input.json', 'r') as file:
             input_workitems = json.load(file)
         
         #Act

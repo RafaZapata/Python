@@ -20,7 +20,7 @@ class TestElasticsearchCliente(unittest.TestCase):
 
         elastic_client = ElasticsearchCliente()
         
-        with open('..\\backend\\tests\\resources\\data_processor.json', 'r') as file:
+        with open('..\\resources\\data_processor.json', 'r') as file:
             input_azure = json.load(file)
 
         data = json.dumps(input_azure)
