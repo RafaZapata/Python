@@ -2,6 +2,8 @@ import logging
 import unittest
 import json
 from microservice.interceptors.Impl.Sanitizer import Sanitizer
+from pathlib import Path
+import os
 
 class TestSanitizer(unittest.TestCase):
 
@@ -12,8 +14,13 @@ class TestSanitizer(unittest.TestCase):
 
     def test_data_sanitizer_workitems_valid_input(self):
         '''Caso de prueba para data_sanitizer_workitems con entrada válida'''
+        
+         #Arrage
+        my_path = os.path.abspath(os.path.dirname(__file__))
+        path = os.path.join(my_path, "../resources/data_input.json")
+        
         #Arrange
-        with open('microservice/test/resources/data_input.json', 'r') as file:
+        with open(path) as file:
             input_workitems = json.load(file)
         
         #Act

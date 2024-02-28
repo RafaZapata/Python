@@ -1,6 +1,8 @@
 import unittest
 import json
 from microservice.processors.Impl.Data_processor import DataProcessor
+from pathlib import Path
+import os
 
 class TestDataProcessor(unittest.TestCase):
 
@@ -11,7 +13,11 @@ class TestDataProcessor(unittest.TestCase):
     def test_process_data(self):
         '''Caso de prueba para process_data con exito'''
         #Arrange
-        with open('microservice/test/resources/data_sanitizer.json', 'r') as file:
+
+        my_path = os.path.abspath(os.path.dirname(__file__))
+        path = os.path.join(my_path, "../resources/data_sanitizer.json")
+
+        with open(path, 'r') as file:
             data_input = json.load(file)
         
         data = json.dumps(data_input)
