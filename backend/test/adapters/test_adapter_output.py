@@ -5,7 +5,7 @@ from microservice.adapters.output.Impl.Elastic_adapter import ElasticsearchClien
 
 class TestElasticsearchCliente(unittest.TestCase):
 
-    @patch('adapters.output.Impl.Elastic_adapter.Elasticsearch')
+    @patch('microservice.adapters.output.Impl.Elastic_adapter.Elasticsearch')
     @patch('configurations.Config')
     def test_data_index(self, mock_config, mock_elasticsearch):
         
