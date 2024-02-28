@@ -1,7 +1,7 @@
 import requests
-from adapters.input.IAzure_adapter import IAzureAdapter
-from interceptors.Impl.Sanitizer import Sanitizer
-from configurations.Config import Config
+from microservice.adapters.input.IAzure_adapter import IAzureAdapter
+from microservice.interceptors.Impl.Sanitizer import Sanitizer
+from microservice.configurations.Config import Config
 
 class AzureAdapter(IAzureAdapter):
     def __init__(self, sanitizer = Sanitizer):

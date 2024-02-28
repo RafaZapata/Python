@@ -2,9 +2,12 @@ import unittest
 import requests
 import json
 from unittest.mock import patch, MagicMock
-from adapters.input.Impl.Azure_adapter import AzureAdapter
-from configurations.Config import Config
-from interceptors.Impl.Sanitizer import Sanitizer
+from microservice.adapters.input.Impl.Azure_adapter import AzureAdapter
+from microservice.configurations.Config import Config
+from microservice.interceptors.Impl.Sanitizer import Sanitizer
+from pathlib import Path
+import os
+
 
 class TestAzureAdapter(unittest.TestCase):
 
@@ -19,7 +22,10 @@ class TestAzureAdapter(unittest.TestCase):
         Config.API_AZURE_PROJECTS = 'http://azure_projects_url.com'
         Config.API_AZURE_TOKEN = api_token
 
-        with open('../AzureDevOps-Microbatch/tests/resources/data_input.json', 'r') as file:
+        my_path = os.path.abspath(os.path.dirname(__file__))
+        path = os.path.join(my_path, "../resources/data_input.json")
+
+        with open(path, 'r') as file:
             data_input = json.load(file)
 
         mock_session = MagicMock()
