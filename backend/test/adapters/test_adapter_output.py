@@ -27,7 +27,7 @@ class TestElasticsearchCliente(unittest.TestCase):
 
 
         with open(path, 'r') as file:
-            input_azure = file
+            input_azure = file.read()
 
         #data = json.dumps(input_azure)
         
