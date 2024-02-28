@@ -11,7 +11,7 @@ class TestDataProcessor(unittest.TestCase):
     def test_process_data(self):
         '''Caso de prueba para process_data con exito'''
         #Arrange
-        with open('microservice\\test\\resources\\data_sanitizer.json', 'r') as file:
+        with open('microservice/test/resources/data_sanitizer.json', 'r') as file:
             data_input = json.load(file)
         
         data = json.dumps(data_input)

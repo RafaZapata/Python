@@ -22,7 +22,7 @@ class TestAzureAdapter(unittest.TestCase):
     def test_get_workitems_successful(self, session_mock):
 
         #Arrage
-        with open('microservice\\test\\resources\\data_input.json', 'r') as file:
+        with open('microservice/test/resources/data_input.json', 'r') as file:
             data = json.load(file)
 
         response_mock = MagicMock()
