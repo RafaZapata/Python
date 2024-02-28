@@ -2,11 +2,13 @@ import unittest
 import json
 from unittest.mock import Mock, patch
 from microservice.adapters.output.Impl.Elastic_adapter import ElasticsearchCliente
+from pathlib import Path
+import os
 
 class TestElasticsearchCliente(unittest.TestCase):
 
     @patch('microservice.adapters.output.Impl.Elastic_adapter.Elasticsearch')
-    @patch('configurations.Config')
+    @patch('microservice.configurations.Config')
     def test_data_index(self, mock_config, mock_elasticsearch):
         
         #Arrange
@@ -20,7 +22,11 @@ class TestElasticsearchCliente(unittest.TestCase):
 
         elastic_client = ElasticsearchCliente()
         
-        with open('..\\resources\\data_processor.json', 'r') as file:
+        my_path = os.path.abspath(os.path.dirname(__file__))
+        path = os.path.join(my_path, "../resources/data_processor.json")
+
+
+        with open(path, 'r') as file:
             input_azure = json.load(file)
 
         data = json.dumps(input_azure)
