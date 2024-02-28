@@ -29,7 +29,7 @@ class TestElasticsearchCliente(unittest.TestCase):
         with open(path, 'r') as file:
             input_azure = json.load(file)
 
-        data = json.dumps(input_azure)
+        #data = json.dumps(input_azure)
         
         #Act
         result = elastic_client.data_index_bulk(input_azure)
