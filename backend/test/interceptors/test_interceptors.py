@@ -33,7 +33,7 @@ class TestSanitizer(unittest.TestCase):
         #Assert
         self.assertIsNotNone(data)
         self.assertEqual(workitems_count, 3)
-        self.assertCountEqual(workitem_ids, [14761, 17413, 17417])
+        self.assertCountEqual(workitem_ids, ['14761-2024-02-08T13:52:52.277-06:00', '17413-2024-02-08T15:33:12.597-06:00', '17417-2024-02-08T16:15:04.237-06:00'])
         self.assertEqual(len(workitem_type), 1)
         
     def test_data_sanitizer_workitems_invalid_input(self):
