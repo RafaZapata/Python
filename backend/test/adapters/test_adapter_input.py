@@ -4,6 +4,7 @@ from unittest.mock import MagicMock, patch
 from microservice.adapters.input.Impl.Azure_adapter import AzureAdapter
 import os
 import sys
+from pathlib import Path
 
 print(os.getcwd())
 print(sys.path)
@@ -22,7 +23,10 @@ class TestAzureAdapter(unittest.TestCase):
     def test_get_workitems_successful(self, session_mock):
 
         #Arrage
-        with open('microservice/test/resources/data_input.json', 'r') as file:
+        my_path = os.path.abspath(os.path.dirname(__file__))
+        path = os.path.join(my_path, "../resources/data_input.json")
+
+        with open(path, 'r') as file:
             data = json.load(file)
 
         response_mock = MagicMock()
